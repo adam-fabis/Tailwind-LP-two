@@ -3,10 +3,17 @@
 @tailwind utilities;
 
 @media screen(lg) {
-    .bg-hero {
-        width: 2000px;
-        height: 300px;
-        left: 30%;
-        @apply absolute rounded-l-full top-52 bg-softBlue
-    }
+  .bg-hero {
+    width: 2000px;
+    height: 300px;
+    left: 30%;
+    @apply absolute top-52 rounded-l-full bg-softBlue;
+  }
+
+  .bg-tabs {
+    width: 2000px;
+    height: 300px;
+    right: 60%;
+    @apply absolute top-60 rounded-r-full bg-softBlue;
+  }
 }
